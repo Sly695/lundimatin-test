@@ -1,0 +1,96 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.onglet-name{
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+}
+
+.onglet-name h2{
+    margin: auto;
+}
+
+.header{
+    height: 20px;
+    width: 100vw;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+
+
+
+.search_bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search_bar-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+.search_bar-button{
+    width: 100px;
+    margin-left: auto;
+
+}
+
+.list-section{
+    border: 1px solid black;
+    height: 500px;
+}
+
+.list-costumers-label{
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.list-costumers{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.costumer-avatar{
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 50px;
+    margin-right: 5%;
+}
+
